@@ -2,7 +2,7 @@
 #import <substrate.h>
 
 
-// Hide suggested reels
+
 %hook _IGListScrollWhileAnimateCollectionView
 - (void)_didModifySections:(id)arg1 {
         for (UIView *subview in self.subviews) {
@@ -13,14 +13,14 @@
     }
 %end
 
-// Disable Explore Posts
+
 %hook IGExploreGridViewController
 - (id)view {
         return nil;
 }
 %end
 
-// Hide Reels tab
+
 %hook IGTabBar
 - (void)didMoveToWindow {
     %orig;
