@@ -1,0 +1,8 @@
+Package: com.ayz.dereel
+Name: BHInsta
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Remove the Tweaks-tab, suggested Reels on Feed and remove suggested posts on Search.
+Maintainer: Ayz
+Section: Tweaks
+Depends: mobilesubstrate, ws.hbang.common
