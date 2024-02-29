@@ -1,5 +1,5 @@
 # DeReel
-If you like this Repo, consider likimg and Following :)
+If you like this Repo, consider liking and Following :)
 
 
 A Tweak removing Reels from the Feed and the Homebar.
